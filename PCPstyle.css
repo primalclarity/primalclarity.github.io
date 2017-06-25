@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+	
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	background-color:#000000;
+	color: #fff; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0;
+	padding:0;
+	text-align: justify;
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FFFFFF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #FFFFFF;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #CCCCCC;
+	}
+acronym {
+	border-bottom: none;
+	}
+
+
+#container { 
+	
+	width: 800px;
+	
+	margin: 0; 
+	position: relative;
+	left:15%;
+	
+	}
+#splashScreen { 
+	position:relative;
+	width:300px;
+	height:550px;
+	top:20px;
+	left:30%;
+	margin: 0; 
+	padding: 0;
+	}
+
+
+#pageheader {
+
+width: 800px;
+height: 140px;
+
+}
+
+#headermenu{
+	position:relative;
+	display:block;
+	height:20px;
+	width:800px;
+	left:0;
+	font-size:10px;
+	font-weight:bold;
+	font-family:Arial,Verdana,Helvitica,sans-serif;
+	text-transform:uppercase;
+	top: 0;
+}
+#headermenu ul{margin:0px;padding:0;list-style-type:none;width:auto; height:20;}
+#headermenu ul li{display:block; float:left; margin:0 0px 0 0; height:20;}
+#headermenu ul li a{display:block; color: #CCCCCC; height:20px; padding:0px 5px 0px 5px}
+#headermenu ul li a:hover, #headermenu ul li a.current{ height:20; color:#fff;}
+
+#headerlogo { float:right; width:230px; right:0%; bottom:100%; margin:0; padding:0; }
+
+#headerlogo a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+
+	}
+#headerlogo a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+
+	}
+#headerlogo a:hover, #headerlogo a:active { 
+	text-decoration: none; 
+
+	}
+
+
+#frontnav {
+background: transparent url(images/menubanner.gif) no-repeat top left;
+width: 800px;
+height: 324px;
+font-size:12px;
+font-stretch: 10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-transform:uppercase;
+color: #999999;
+
+}
+
+#frontnav ul{margin:0px;padding:0;list-style-type:none;width:800px; height:20; float:left;}
+#frontnav ul li{display:block; margin:0 0px 0 0; height:20px; float:left;}
+#frontnav ul li a{display:block; color:#999999; height:20px; padding:0px 5px 0px 5px; font-stretch:ultra-expanded; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#frontnav ul li a:hover, #topmenu ul li a.current{ height:20px; color: #CCCCCC; text-decoration:none}
+
+
+#pagefooter {
+	position:relative;
+	float:inherit;
+	background: transparent url(images/pcpfooter.gif) no-repeat center bottom;
+	height:120px;
+	font-size:10px;
+	font-weight:bold;
+	font-family:Arial,Verdana,Helvitica,sans-serif;
+	}
+
+#pagefooter p {text-align:center;}
+#mainbody{
+	position:relative;
+	left:100px;
+	width:700px;
+	font-size:10px;
+	font-weight:bold;
+	font-family:Arial,Verdana,Helvitica,sans-serif;
+	color:#CCCCCC;
+	
+}
+#mainbody h2{
+	font-size:16px;
+	font-weight:lighter;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+	
+	
+}
+#mainbody h3{
+	font-size:12px;
+	font-weight:lighter;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+	
+	
+}
+#mainbody h4{
+	font-size:12px;
+	font-weight:lighter;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+	
+	
+}
+
+
+#mainbody h2 a:link{ 
+	text-decoration: underline; 
+	color: #fff;
+	}
+
+#mainbody p a:hover, #mainbody p a:active { 
+	text-decoration: underline; 
+	color: #333333;
+	}
+#mainbody li a:hover, #mainbody li a:active { 
+	text-decoration: underline; 
+	color: #333333;
+	}
+
+#mainbody 	a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #CCCCCC;
+	}
+#mainbody a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #CCCCCC;
+	}
+#mainbody p{
+	text-align:justify;
+	}
+
+#mainbody img{padding:10px;}
+#mainbody ul{
+	list-style-type:none;
+	}
+#mainbody q{
+	font-size:10px;
+	text-align: center; 
+	font-style:italic;
+	
+	}
+.red {color:#FF0000;}
+.readmore {float:right; text-decoration:underline;}
+.updatedate { padding-left:20px; padding-top:0px;}
+.centre  p{ text-align:center;}
+.left{float:left;}
+
